@@ -4,7 +4,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'app-pokemon-list',
   imports: [],
   template: `<p>pokemon-list works!</p>`,
-  styleUrl: './pokemon-list.component.css',
+  styleUrls: ['./pokemon-list.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PokemonListComponent { }
